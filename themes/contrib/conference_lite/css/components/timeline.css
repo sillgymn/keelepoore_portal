@@ -1,0 +1,116 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's timeline.
+ */
+.field--name-field-mt-tml-timeline-item {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.field--name-field-mt-tml-timeline-item:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 10px;
+  background: -moz-linear-gradient(top, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 1) 80%, rgba(238, 238, 238, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(238, 238, 238, 1) 0%,rgba(238, 238, 238, 1) 80%,rgba(238, 238, 238, 0) 100%);
+  background: linear-gradient(to bottom, rgba(238, 238, 238, 1) 0%,rgba(238, 238, 238, 1) 80%,rgba(238, 238, 238, 0) 100%);
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 10px;
+}
+.region--light-typography .field--name-field-mt-tml-timeline-item:before {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 80%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0.4) 80%,rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0.4) 80%,rgba(255, 255, 255, 0) 100%);
+}
+.field--name-field-mt-tml-timeline-item > .field__item {
+  margin-bottom: 20px;
+  position: relative;
+}
+.field--name-field-mt-tml-timeline-item > .field__item:first-child {
+  margin-top: 20px;
+}
+.field--name-field-mt-tml-timeline-item > .field__item:before,
+.field--name-field-mt-tml-timeline-item > .field__item:after {
+  content: " ";
+  display: table;
+}
+.field--name-field-mt-tml-timeline-item > .field__item:after {
+  clear: both;
+}
+.field--name-field-mt-tml-timeline-item > .field__item .timeline-item {
+  width: 46%;
+  float: left;
+  position: relative;
+  text-align: right;
+}
+.field--name-field-mt-tml-timeline-item > .field__item .timeline-item.timeline-item--expired {
+  opacity: 0.7;
+}
+.field--name-field-mt-tml-timeline-item > .field__item .timeline__header h5 {
+  margin: 0 0 5px;
+}
+.field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  margin-left: -10px;
+  background-color: transparent;
+  z-index: 100;
+  border-radius: 100%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #c5c5c5;
+  z-index: 10;
+}
+.region--white-background .field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  background-color: #ffffff;
+}
+.region--gray-background .field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  background-color: #f6f6f6;
+}
+.region--dark-gray-background .field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  background-color: #575757;
+}
+.region--black-background .field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  background-color: #000000;
+}
+.region--light-typography .field--name-field-mt-tml-timeline-item .field__item .timeline__badge {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.field--name-field-mt-tml-timeline-item > .field__item:nth-child(2n) .timeline-item {
+  float: right;
+  text-align: left;
+}
+@media (min-width: 1200px) {
+  .field--name-field-mt-tml-timeline-item > .field__item .timeline-item {
+    padding-right: 40px;
+  }
+  .field--name-field-mt-tml-timeline-item > .field__item:nth-child(2n) .timeline-item {
+    padding-left: 40px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .field--name-field-mt-tml-timeline-item:before {
+    left: 10px;
+  }
+  .field--name-field-mt-tml-timeline-item > .field__item .timeline-item {
+    width: calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -webkit-calc(100% - 40px);
+  }
+  .field--name-field-mt-tml-timeline-item > .field__item .timeline__badge {
+    left: 0px;
+    margin-left: 0;
+  }
+  .field--name-field-mt-tml-timeline-item > .field__item .timeline-item {
+    float: right;
+    text-align: left;
+  }
+}

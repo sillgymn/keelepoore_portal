@@ -1,0 +1,46 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's front page background.
+ */
+.background-image-area {
+  position: relative;
+}
+.background-image-area__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+@media (min-height: 1080px) , (min-width: 1920px) {
+  .background-image {
+    background-size: cover;
+  }
+}
+.background-image-area__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 767px) {
+  .background-image-area.region--black-background .header {
+    background-color: #000000;
+  }
+  .background-image-area.region--white-background .header {
+    background-color: #ffffff;
+  }
+  .background-image-area.region--gray-background .header {
+    background-color: #f6f6f6;
+  }
+  .background-image-area.region--dark-gray-background .header {
+    background-color: #575757;
+  }
+}

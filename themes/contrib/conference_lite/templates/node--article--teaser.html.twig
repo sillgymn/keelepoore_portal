@@ -1,0 +1,52 @@
+{#
+/**
+ * @file
+ * Conference+s's theme implementation to display a Article node.
+ */
+#}
+
+{% extends "node.html.twig" %}
+{% block node_side %}
+{% endblock %}
+{% block meta_area %}
+  {{ title_prefix }}
+  {% if display_submitted  and not content.field_image|render %}
+  <span class="node__meta-date">
+    <span class="node__meta-date-item day">{{ node.createdtime|format_date('custom', 'd') }}</span>
+    <span class="node__meta-date-item month-year">{{ node.createdtime|format_date('custom', 'M') }}, {{ node.createdtime|format_date('custom', 'Y') }}</span>
+  </span>
+  {{ metadata }}
+  {% endif %}
+  {{ content.field_image }}
+  <h2{{ title_attributes.addClass('node__title') }}>
+    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+  </h2>
+  {{ title_suffix }}
+  {% if display_submitted or (node.comment and comment_count > 0) %}
+    <div class="node__meta">
+      {% if display_submitted %}
+        <span{{ author_attributes.addClass('node__meta-user node__meta-item') }}>
+          <i class="far fa-user"></i> {{ author_name }}
+        </span>
+      {% endif %}
+      {% if node.comment and comment_count > 0 %}
+        <div class="node__meta-item node__meta-comments">
+          <i class="far fa-comments"></i>
+          {% trans %}
+            1 comment
+          {% plural comment_count %}
+            {{ comment_count }} comments
+          {% endtrans %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}
+{% block content %}
+  {{ attach_library('conference_lite/node-article') }}
+  <div class="node__main-content-section">
+    {{ content|without('comment', 'links', 'field_image') }}
+  </div>
+  {{ content.links }}
+  {{ content.comment }}
+{% endblock %}

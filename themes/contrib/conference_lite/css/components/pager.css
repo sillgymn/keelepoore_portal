@@ -1,0 +1,91 @@
+/**
+ * @file
+ * Styles for Conference Lite's full pager.
+ */
+
+/* Using .pager selector on the first one to override .region-content ul. */
+.pager__items {
+  margin: 20px 0;
+  font-size: 0;
+  padding: 20px 0 0;
+  text-align: center;
+  border-top-width: 4px;
+  border-top-color: #f0f0f0;
+  border-top-style: double;
+}
+li.pager__item {
+  padding: 0;
+  margin: 5px 0;
+  display: inline-block;
+}
+li.pager__item > a {
+  font-size: 16px;
+  text-align: center;
+  min-height: 40px;
+  min-width: 40px;
+  padding: 0;
+  margin: 0 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  line-height: 36px;
+  text-decoration: none;
+  background-color: transparent;
+  display: block;
+  color: #656565;
+}
+li.pager__item.is-active a,
+li.pager__item.is-active a:hover,
+li.pager__item.is-active a:focus {
+  color: #ffffff;
+}
+li.pager__item a:hover,
+li.pager__item a:focus {
+  background-color: transparent;
+}
+li.pager__item--last,
+li.pager__item--next {
+  margin-left: 20px;
+}
+li.pager__item--first,
+li.pager__item--previous {
+  margin-right: 20px;
+}
+li.pager__item--next a,
+li.pager__item--previous a,
+li.pager__item--last a,
+li.pager__item--first a {
+  border-radius: 5px;
+  padding: 0 15px;
+  border-color: #878787;
+}
+
+/*mini pager @colored regions*/
+.region--light-typography .pager__items {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.region--light-typography li.pager__item > a {
+  color: #ffffff;
+  background-color: transparent;
+}
+.region--light-typography li.pager__item a:hover,
+.region--light-typography li.pager__item a:focus,
+.region--light-typography li.pager__item.is-active a,
+.region--light-typography li.pager__item.is-active:last-child a {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.region--light-typography li.pager__item--next a,
+.region--light-typography li.pager__item--previous a,
+.region--light-typography li.pager__item--last a,
+.region--light-typography li.pager__item--first a {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Reset Bootstrap's rules*/
+.pager {
+  margin: 0;
+}
