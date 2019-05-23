@@ -1,0 +1,11 @@
+uuid: 08f6893e-3918-4178-a76a-0c2b5a4cbc65
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.kp_news
+id: node.kp_news
+target_entity_type_id: node
+target_bundle: kp_news
+default_langcode: site_default
+language_alterable: false

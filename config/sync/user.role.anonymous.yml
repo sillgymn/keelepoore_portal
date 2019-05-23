@@ -1,0 +1,17 @@
+uuid: 1313bc61-69da-4d36-b930-fcae6b793f4c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'rng register role authenticated'
+  - 'search content'
+  - 'use text format restricted_html'

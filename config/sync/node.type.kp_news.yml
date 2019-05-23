@@ -1,0 +1,17 @@
+uuid: a6c1c177-68a8-4d4a-8550-56319b00ddc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: kp_news
+description: News
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

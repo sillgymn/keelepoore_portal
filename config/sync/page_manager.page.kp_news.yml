@@ -1,0 +1,12 @@
+uuid: 396c5ab7-8522-4bb3-9cd8-ca8447679d2b
+langcode: en
+status: true
+dependencies: {  }
+id: kp_news
+label: News
+description: ''
+use_admin_theme: false
+path: /uudised
+access_logic: and
+access_conditions: {  }
+parameters: {  }

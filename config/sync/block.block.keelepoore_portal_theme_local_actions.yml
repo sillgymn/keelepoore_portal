@@ -1,0 +1,20 @@
+uuid: 1f8bfc84-e7ea-454b-b394-071d8d38943c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: D4C_Xi3DmU_0Q_hrYK8w2WbC6lsqNc3gF8EgBFyzsPQ
+id: keelepoore_portal_theme_local_actions
+theme: keelepoore_portal_theme
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

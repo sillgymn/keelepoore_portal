@@ -1,0 +1,44 @@
+uuid: 5b71832a-e787-44b1-98a7-436b461fe9b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:084e0029-fc41-454f-a722-f11f24d166e4'
+  module:
+    - block_content
+    - rng
+    - system
+  theme:
+    - keelepoore_portal_theme
+id: calltoaction
+theme: keelepoore_portal_theme
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:084e0029-fc41-454f-a722-f11f24d166e4'
+settings:
+  id: 'block_content:084e0029-fc41-454f-a722-f11f24d166e4'
+  label: 'Call to action'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  rng_current_time:
+    id: rng_current_time
+    date: '1558595971'
+    negate: false
+    context_mapping: {  }
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1558595971'
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,16 @@
+label: Keel
+tips:
+  language-overview:
+    label: Keeled
+    body: '<p>Leht "Keeled" võimaldab lisada, muuta, kustutada ning muuta keelte järjekorda</p>'
+  language-add:
+    label: 'Keelte lisamine'
+    body: '<p>Keele lisamiseks kliki nuppu "Lisa keel".</p><p>Lisatud keeled kuvatakse keele nimekirjas ning seejärel on neid võimalik muuta ja kustutada.</p>'
+  language-reorder:
+    label: 'Keelte järjekorra muutmine'
+  language-default:
+    label: 'Määra vaikekeeleks'
+  language-operations:
+    label: 'Keelte muutmine'
+  language-continue:
+    label: Jätkub

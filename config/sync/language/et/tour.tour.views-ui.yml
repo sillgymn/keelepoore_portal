@@ -1,0 +1,26 @@
+label: 'Vaate muutmisleht'
+tips:
+  views-main:
+    label: 'Halda vaate seadeid'
+    body: 'Vaata või muuda seadistust.'
+  views-ui-displays:
+    label: 'Nähtav selles vaates'
+  views-ui-view-admin:
+    label: 'Vaate haldamine'
+  views-ui-format:
+    label: Väljundvorming
+  views-ui-fields:
+    label: Väljad
+  views-ui-filter:
+    label: 'Filtreeri vaadet'
+  views-ui-filter-operations:
+    label: 'Filtri toimingud'
+    body: 'Lisa, järjesta või eemalda filtrid.'
+  views-ui-sorts:
+    label: Sorteerimistingimused
+  views-ui-sorts-operations:
+    label: 'Sorteeri tegevused'
+    body: 'Lisa, järjesta või eemalda sorteerimise reeglid.'
+  views-ui-preview:
+    label: Eelvaade
+    body: 'Näita eelvaadet vaate väljundist.'

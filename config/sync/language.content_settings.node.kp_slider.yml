@@ -1,0 +1,11 @@
+uuid: f752d1b5-f2ab-4645-a03c-e6adfba50346
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.kp_slider
+id: node.kp_slider
+target_entity_type_id: node
+target_bundle: kp_slider
+default_langcode: site_default
+language_alterable: false

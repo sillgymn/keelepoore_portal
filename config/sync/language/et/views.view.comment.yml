@@ -1,0 +1,97 @@
+label: Kommentaarid
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rakenda
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
+      pager:
+        options:
+          tags:
+            previous: '‹ eelmine'
+            next: 'järgmine ›'
+            first: '« esimene'
+            last: 'viimane »'
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+            offset_label: Nihe
+      fields:
+        comment_bulk_form:
+          action_title: Tegevus
+        subject:
+          label: Teema
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: Autor
+          separator: ', '
+        entity_id:
+          label: Postitatud
+          separator: ', '
+        changed:
+          label: Uuendatud
+          separator: ', '
+        operations:
+          label: Toimingud
+        name_1:
+          separator: ', '
+      filters:
+        subject:
+          expose:
+            label: Teema
+        combine:
+          expose:
+            label: 'Autori nimi'
+        langcode:
+          expose:
+            label: Keel
+      title: Kommentaarid
+      empty:
+        area_text_custom:
+          content: 'Kommentaarid puuduvad.'
+      use_more_text: veel
+  page_published:
+    display_title: 'Avaldatud kommentaarid'
+    display_options:
+      menu:
+        title: Kommentaarid
+  page_unapproved:
+    display_title: 'Heakskiitmata kommentaarid'
+    display_options:
+      menu:
+        title: 'Heakskiitmata kommentaarid'
+      filters:
+        subject:
+          expose:
+            label: Teema
+        langcode:
+          expose:
+            label: Keel
+      fields:
+        comment_bulk_form:
+          action_title: Tegevus
+        subject:
+          label: Teema
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: Autor
+          separator: ', '
+        entity_id:
+          label: Postitatud
+          separator: ', '
+        changed:
+          label: Uuendatud
+          separator: ', '
+        operations:
+          label: Toimingud
+        name_1:
+          separator: ', '

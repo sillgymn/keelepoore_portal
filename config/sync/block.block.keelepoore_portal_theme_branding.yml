@@ -1,0 +1,25 @@
+uuid: ed73cb65-9c8a-4760-a709-b3d136ff343f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: MMrWM5Az5QeCV5AznmNQ4tmFsaMeZQHDz2dtbDWzx90
+id: keelepoore_portal_theme_branding
+theme: keelepoore_portal_theme
+region: header_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

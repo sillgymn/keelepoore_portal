@@ -1,0 +1,9 @@
+label: 'Keelte lisamine'
+tips:
+  language-add-overview:
+    label: 'Keelte lisamine'
+    body: '<p>See leht võimaldab lisada saidile levinud keelte tõlkeid.</p><p>Kui soovitud keelt ei leitud, võid lisada uue tõlke.</p>'
+  language-add-choose:
+    label: 'Vali keel'
+  language-add-continue:
+    label: Jätkub

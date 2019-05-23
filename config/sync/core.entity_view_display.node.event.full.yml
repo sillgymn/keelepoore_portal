@@ -1,0 +1,27 @@
+uuid: dfd7a395-49f3-412c-89a0-7f9a1b59260e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - node.type.event
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+    allow_custom: false
+    enabled: false
+id: node.event.full
+targetEntityType: node
+bundle: event
+mode: full
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

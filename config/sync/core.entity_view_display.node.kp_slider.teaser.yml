@@ -1,0 +1,21 @@
+uuid: 52e1fdf3-fdd6-4139-acfc-9cc04125c0b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.kp_slider
+  module:
+    - user
+id: node.kp_slider.teaser
+targetEntityType: node
+bundle: kp_slider
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

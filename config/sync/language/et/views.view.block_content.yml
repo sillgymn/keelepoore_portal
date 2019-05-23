@@ -1,0 +1,41 @@
+description: 'Otsi ja halda kohandatud plokke.'
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rakenda
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
+      pager:
+        options:
+          tags:
+            previous: '‹ Eelmine'
+            next: 'Järgmine ›'
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+            offset_label: Nihe
+      fields:
+        info:
+          label: 'Ploki kirjeldus'
+          separator: ', '
+        type:
+          label: 'Ploki tüüp'
+          separator: ', '
+        changed:
+          label: Uuendatud
+        operations:
+          label: Toimingud
+      filters:
+        info:
+          expose:
+            label: 'Ploki kirjeldus'
+        type:
+          expose:
+            label: 'Ploki tüüp'
+  page_1:
+    display_title: Lehekülg

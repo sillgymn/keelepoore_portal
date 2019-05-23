@@ -1,0 +1,29 @@
+label: 'Sisseloginud kasutajate infoplokk'
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rakenda
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
+      filters:
+        access:
+          expose:
+            label: 'Viimane külastus'
+            description: 'Pärast viimase lehe vaatamist on kasutaja online'
+      title: 'Lehel olevad kasutajad'
+      header:
+        result:
+          content: 'Hetkel on lehel @total kasutajat.'
+      empty:
+        area_text_custom:
+          content: 'Hetkel on lehel 0 kasutajat.'
+  who_s_online_block:
+    display_title: 'Lehel olevad kasutajad'
+    display_options:
+      block_description: 'Lehel olevad kasutajad'
+      display_description: 'Nimekiri kasutajatest kes on hetkel sisse logitud.'

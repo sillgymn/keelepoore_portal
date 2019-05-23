@@ -1,0 +1,69 @@
+uuid: 8704d614-16ea-4558-91ce-de3a7d736c13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_event_contact_email
+    - field.field.node.event.field_event_dates
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_image
+    - node.type.event
+  module:
+    - datetime
+    - image
+    - layout_builder
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  field_event_contact_email:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_event_dates:
+    weight: 3
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_event_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

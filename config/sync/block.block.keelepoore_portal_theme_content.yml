@@ -1,0 +1,22 @@
+uuid: 6029a600-b6ef-4891-872a-9691f8314678
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: CyrIbjxTY7CTI8KOzCjTDzg2AscukgdHrfVxc7cFbTo
+id: keelepoore_portal_theme_content
+theme: keelepoore_portal_theme
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
