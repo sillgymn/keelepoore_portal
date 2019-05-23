@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Visual styles for Conference+'s Speakers carousel.
+ */
+.view-speakers-carousel h2.title {
+  margin-bottom: 0;
+  padding-top: 30px;
+}
+.view-speakers-carousel .owl-item li {
+  margin: 0 15px;
+}
+
+/*navigation controls*/
+.view-speakers-carousel .owl-nav {
+  top: 0px;
+}
+.view-speakers-carousel .owl-nav div {
+  text-transform: uppercase;
+}
+
+/*images overlays*/
+.view-speakers-carousel .views-field-field-mt-spk-speaker-photo img,
+.view-speakers-carousel .views-field-field-mt-spk-speaker-photo .overlay {
+  border-radius: 5px 5px 0 0;
+}
+.view-speakers-carousel .overlay-inner {
+  top: auto;
+  bottom: 0;
+  margin-top: 0;
+  height: auto;
+}
+.view-speakers-carousel ul.icons-list {
+  padding: 0;
+}
+.view-speakers-carousel ul.icons-list li {
+  width: 25%;
+}
+.view-speakers-carousel ul.icons-list li a {
+  width: 100%;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-facebook {
+  background-color: #2f4b87;
+  border-color: #2f4b87;
+  color: #ffffff;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-facebook:hover {
+  opacity: 0.8;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-twitter {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  color: #ffffff;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-twitter:hover {
+  opacity: 0.8;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-youtube {
+  background-color: #cd201f;
+  border-color: #cd201f;
+  color: #ffffff;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-youtube:hover {
+  opacity: 0.8;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-linkedin {
+  background-color: #0084bf;
+  border-color: #0084bf;
+  color: #ffffff;
+}
+.view-speakers-carousel .overlay-inner ul.icons-list li .background-color-linkedin:hover {
+  opacity: 0.8;
+}
+
+/*text-container*/
+.view-speakers-carousel .text-container {
+  background-color: #eeeeee;
+  padding: 25px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.view-speakers-carousel .views-field-field-mt-spk-speaker-photo ~ .text-container {
+  border-radius: 0 0 5px 5px;
+}
+.view-speakers-carousel .text-container .views-field-title a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.view-speakers-carousel .text-container .views-field-field-mt-spk-subtitle {
+  font-size: 16px;
+  color: #656565;
+}

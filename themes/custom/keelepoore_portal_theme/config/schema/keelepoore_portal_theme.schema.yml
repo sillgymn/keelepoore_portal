@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Conference+ theme.
+
+conferenceplus.settings:
+  type: theme_settings
+  label: 'Conference+ settings'

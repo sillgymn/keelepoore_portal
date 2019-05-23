@@ -1,0 +1,155 @@
+/**
+ * @file
+ * Styles for Conference Lite's buttons.
+ */
+a.button,
+.button > a,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 30px 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+a.button.button--small,
+.button.button--small > a {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-width: 1px;
+  text-transform: none;
+}
+a.button.button--outline,
+.button.button--outline > a {
+  background-color: transparent;
+}
+a.button.button--outline:hover,
+.button.button--outline > a:hover,
+a.button.button--outline:focus,
+.button.button--outline > a:focus {
+  color: #ffffff;
+}
+.region--light-typography a.button,
+.region--light-typography .button > a,
+.region--light-typography input[type="submit"] {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.region--light-typography a.button:hover,
+.region--light-typography .button > a:hover,
+.region--light-typography input[type="submit"]:hover,
+.region--light-typography a.button:focus,
+.region--light-typography .button > a:focus,
+.region--light-typography input[type="submit"]:focus {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.region--light-typography a.button.button--outline,
+.region--light-typography .button.button--outline > a {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.region--light-typography a.button.button--outline:hover,
+.region--light-typography .button.button--outline > a:hover,
+.region--light-typography a.button.button--outline:focus,
+.region--light-typography .button.button--outline > a:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+.headings-wide-spacing-enabled a.button,
+.headings-wide-spacing-enabled .button > a,
+.headings-wide-spacing-enabled input[type="submit"],
+.headings-wide-spacing-enabled input[type="reset"],
+.headings-wide-spacing-enabled input[type="button"] {
+  letter-spacing: 0.25em;
+}
+input[type="submit"] + input[type="submit"],
+.button + .button {
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  .text-center .button + .button {
+    margin-right: 5px;
+  }
+  .text-center .button {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+a.button:hover,
+a.button:focus,
+.button > a:hover,
+.button > a:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus {
+  background-color: transparent;
+}
+span.button-operator {
+  margin: 0 10px 0 5px;
+}
+a.button .svg-inline--fa {
+  margin-right: 10px;
+}
+a.button--no-margins {
+  margin: 0;
+}
+
+/*Buttons hover style 2*/
+a.button.button--hover-style-2,
+.button.button--hover-style-2 > a {
+  position: relative;
+  z-index: 1;
+}
+a.button.button--hover-style-2:before,
+.button.button--hover-style-2 > a:before {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: #ffffff;
+}
+a.button.button--hover-style-2:hover:before,
+a.button.button--hover-style-2:focus:before,
+.button.button--hover-style-2 > a:hover:before,
+.button.button--hover-style-2 > a:focus:before {
+  transform: scaleX(1);
+}
+.region--light-typography a.button.button--hover-style-2:before,
+.region--light-typography .button.button--hover-style-2 > a:before {
+  background-color: #000000;
+}

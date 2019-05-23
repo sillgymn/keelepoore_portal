@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's language switcher.
+ */
+.block-language ul {
+  padding-left: 0;
+  list-style: none;
+}
+.block-language ul li {
+  padding: 5px 0 5px 20px;
+  position: relative;
+}
+.block-language ul li:before {
+  font-family: "fontello";
+  content: "\e804";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 14px
+}

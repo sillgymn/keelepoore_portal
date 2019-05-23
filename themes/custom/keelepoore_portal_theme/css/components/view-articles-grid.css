@@ -1,0 +1,51 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's articles grid views.
+ */
+.view-articles-grid .views-row {
+  margin-bottom: 40px;
+}
+.region--dark-typography .view-articles-grid .views-field-title a {
+  color: #575757;
+}
+.headings-wide-spacing-enabled .view-articles-grid .views-field-title a {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.view-articles-grid .views-field-title a:hover {
+  text-decoration: none;
+}
+.view-articles-grid .article-meta {
+  position: absolute;
+  background-color: #ffffff;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #575757;
+  text-align: center;
+}
+.view-articles-grid .article-meta__day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.view-articles-grid .article-meta__month-year {
+  font-size: 14px;
+  font-weight: 500;
+}
+.region--dark-typography .view-articles-grid .views-field-body {
+  color: #656565;
+}
+
+/*articles at colored regions*/
+.region--gray-background .view-articles-grid .article-header {
+  background-color: #ffffff;
+}
+.region--light-typography .view-articles-grid .article-header a {
+  text-decoration: none;
+}
+.region--light-typography .view-articles-grid .views-field-view-node {
+  border-color: #ffffff;
+}
