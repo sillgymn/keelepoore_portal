@@ -1,0 +1,14 @@
+uuid: 4cd11332-5170-4592-bba9-a39bad371cdb
+langcode: et
+status: true
+dependencies:
+  config:
+    - user.role.web_sait_admin
+  module:
+    - user
+id: user_remove_role_action.web_sait_admin
+label: 'Remove the Web sait admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: web_sait_admin

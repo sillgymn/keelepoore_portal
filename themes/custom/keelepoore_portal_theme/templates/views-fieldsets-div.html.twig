@@ -1,0 +1,16 @@
+{% if 'fieldset-location' in classes %}
+<div class="{{ classes }}">
+   <div class="highlights-grid">
+      <div class="row no-gutters">
+            {% include 'views-view-fields--frontpage_conference_block.html.twig' %}
+         </div> 
+      </div>
+    </div>  
+  {% else %}
+      
+<div class="{{ classes }}">
+   
+  {% include 'views-view-fields.html.twig' %}
+         
+</div>
+{% endif %}

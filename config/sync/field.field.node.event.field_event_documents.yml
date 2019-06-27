@@ -1,0 +1,27 @@
+uuid: 4cc10cab-e98a-4364-8461-4cc27b88d47d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_documents
+    - node.type.event
+  module:
+    - file
+id: node.event.field_event_documents
+field_name: field_event_documents
+entity_type: node
+bundle: event
+label: Documents
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: confercnses
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

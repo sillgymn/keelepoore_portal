@@ -1,0 +1,14 @@
+uuid: 8041a6d9-6731-4a42-80cb-4eef2574e27d
+langcode: et
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
+id: time_zones
+label: Ajavööndid
+category: 'Kuupäev ja kellaaeg'
+likert: false
+options: ''

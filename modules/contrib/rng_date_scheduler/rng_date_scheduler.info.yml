@@ -1,0 +1,14 @@
+name: RNG Date Scheduler
+type: module
+description: 'Control whether a user can register based on current time in relation to date fields attached to an event entity.'
+package: RNG
+# core: 8.x
+dependencies:
+  - rng (>= 8.x-1.0)
+  - datetime
+
+# Information added by Drupal.org packaging script on 2016-03-26
+version: '8.x-1.0-rc2'
+core: '8.x'
+project: 'rng_date_scheduler'
+datestamp: 1458987840

@@ -1,0 +1,27 @@
+uuid: 9c286a9f-ddb2-4846-937c-e479cdad18c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_documents
+    - node.type.webform
+  module:
+    - file
+id: node.webform.field_event_documents
+field_name: field_event_documents
+entity_type: node
+bundle: webform
+label: Documents
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,20 @@
+uuid: 9b48f6d5-a449-4a4e-a681-13df4e6605b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_evnet_dates
+field_name: field_evnet_dates
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

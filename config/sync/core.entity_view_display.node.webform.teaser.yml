@@ -1,0 +1,35 @@
+uuid: c734410a-7db4-473f-bf14-0a4c2b4d4b06
+langcode: et
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.webform.field_event_contact_email
+    - field.field.node.webform.field_event_description
+    - field.field.node.webform.field_event_documents
+    - field.field.node.webform.field_event_location
+    - field.field.node.webform.field_evnet_dates
+    - field.field.node.webform.webform
+    - node.type.webform
+  module:
+    - user
+_core:
+  default_config_hash: Ls5l3Xs7-YstJnurxFLKj38Exqr2JMZs1j9YeX1Kh2o
+id: node.webform.teaser
+targetEntityType: node
+bundle: webform
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_event_contact_email: true
+  field_event_description: true
+  field_event_documents: true
+  field_event_location: true
+  field_evnet_dates: true
+  langcode: true
+  webform: true

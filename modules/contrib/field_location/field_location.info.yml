@@ -1,0 +1,17 @@
+name: Field Location
+description: Defines a field type, with autocomplete for location and possibility to preview it on the map.
+package: Field
+
+type: module
+# core: 8.x
+php: 5.5
+
+dependencies:
+  - field
+  - googlemaps
+
+# Information added by Drupal.org packaging script on 2016-09-26
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'field_location'
+datestamp: 1474893318

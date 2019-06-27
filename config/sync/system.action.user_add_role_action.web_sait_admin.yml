@@ -1,0 +1,14 @@
+uuid: fc61262c-3b46-49ec-a93e-65b6b8c854ff
+langcode: et
+status: true
+dependencies:
+  config:
+    - user.role.web_sait_admin
+  module:
+    - user
+id: user_add_role_action.web_sait_admin
+label: 'Add the Web sait admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: web_sait_admin
