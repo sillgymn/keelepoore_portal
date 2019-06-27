@@ -72,7 +72,11 @@ display:
       style:
         type: html_list
         options:
-          grouping: {  }
+          grouping:
+            -
+              field: created
+              rendered: true
+              rendered_strip: false
           row_class: 'col-lg-4 col-md-4 views-row'
           default_row_class: true
           type: ul
@@ -395,6 +399,8 @@ display:
       defaults:
         title: false
         fields: false
+        style: false
+        row: false
       fields:
         title:
           id: title
@@ -595,6 +601,26 @@ display:
           entity_field: created
           plugin_id: field
       display_description: ''
+      style:
+        type: html_list
+        options:
+          grouping:
+            -
+              field: created
+              rendered: true
+              rendered_strip: false
+          row_class: 'col-lg-4 col-md-4 views-row'
+          default_row_class: true
+          type: ul
+          wrapper_class: item-list
+          class: ''
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
     cache_metadata:
       max-age: -1
       contexts:

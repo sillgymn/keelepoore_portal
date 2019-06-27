@@ -4,6 +4,12 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_contact_email
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_documents
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_evnet_dates
+    - field.field.node.event.field_image
     - node.type.event
   module:
     - layout_builder
@@ -24,4 +30,10 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_event_contact_email: true
+  field_event_description: true
+  field_event_documents: true
+  field_event_location: true
+  field_evnet_dates: true
+  field_image: true
   langcode: true

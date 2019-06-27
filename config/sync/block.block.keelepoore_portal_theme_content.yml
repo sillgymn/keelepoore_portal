@@ -1,8 +1,10 @@
 uuid: 6029a600-b6ef-4891-872a-9691f8314678
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
+    - ctools
+    - rng
     - system
   theme:
     - keelepoore_portal_theme
@@ -16,7 +18,27 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: 'Lehekülje sisuosa'
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      event: event
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  rng_current_time:
+    id: rng_current_time
+    date: '1558685015'
+    negate: false
+    context_mapping: {  }
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1558685015'
+    negate: false
+    context_mapping: {  }

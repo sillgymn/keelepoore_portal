@@ -1,5 +1,5 @@
 uuid: 541f23d9-beb4-4a3e-9b09-d037415e471f
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
 id: comment_save_action
-label: 'Save comment'
+label: 'Kommentaari salvestamine'
 type: comment
 plugin: 'entity:save_action:comment'
 configuration: {  }

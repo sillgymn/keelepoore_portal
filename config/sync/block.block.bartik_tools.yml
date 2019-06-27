@@ -1,5 +1,5 @@
 uuid: a90c0024-b930-4957-aecb-e9230f982508
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Tööriistad
   provider: system
   label_display: visible
   level: 1

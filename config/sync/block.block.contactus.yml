@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:e5b210e9-d650-44f7-9f31-40e3e0ac6afd'
 settings:
   id: 'block_content:e5b210e9-d650-44f7-9f31-40e3e0ac6afd'
-  label: 'Contact us'
+  label: Kontakt
   provider: block_content
   label_display: visible
   status: true

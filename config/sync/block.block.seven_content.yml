@@ -1,5 +1,5 @@
 uuid: de4a7629-24e1-4e88-94f6-39648be77ca6
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: 'Lehekülje sisuosa'
   provider: system
   label_display: '0'
 visibility: {  }

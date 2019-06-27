@@ -37,7 +37,8 @@ sites/simpletest
  */settings*.php
 
 # Ignore paths that contain user-generated content.
- */files
+*/files 
+sites/*/files
  */private
 
 # Ignore SimpleTest multi-site environment.
@@ -45,3 +46,4 @@ sites/simpletest
 
 *.dd
 *.swp
+*nbproject

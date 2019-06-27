@@ -1,5 +1,5 @@
 uuid: 6fce0112-8c4f-41a6-90ab-ff266f050013
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Body
+label: Sisu
 description: ''
 required: false
 translatable: true

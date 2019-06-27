@@ -1,11 +1,11 @@
 uuid: cde9dd50-a66d-4cb7-9d17-cd653f6af498
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
-name: Tags
+name: Sildid
 vid: tags
-description: 'Use tags to group articles on similar topics into categories.'
+description: 'Sarnaseid teemasid käsitlevate artiklite kategoriseerimiseks kasuta silte.'
 hierarchy: 0
 weight: 0

@@ -1,5 +1,5 @@
 uuid: d5b06e39-2bf0-455f-a07f-fd14750425ac
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
@@ -15,4 +15,4 @@ parameters:
   node:
     machine_name: node
     type: 'entity:node'
-    label: Node
+    label: Postitus

@@ -1,10 +1,10 @@
 uuid: c31c6692-4c94-4c2d-a03b-fab8a08daaef
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: KUjJ8Ti_ZJSlhGM88E_mhJP-8mmQRNUB6RFof615Kt0
-name: 'Restricted HTML'
+name: 'Piiratud HTML'
 format: restricted_html
 weight: 0
 filters:

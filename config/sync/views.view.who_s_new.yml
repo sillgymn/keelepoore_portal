@@ -1,5 +1,5 @@
 uuid: b910ad98-71ac-4571-8ea0-890eb3d0dc25
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,9 +7,9 @@ dependencies:
 _core:
   default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
 id: who_s_new
-label: 'Who''s new'
+label: 'Uued kasutajad'
 module: user
-description: 'Shows a list of the newest user accounts on the site.'
+description: 'Näitab nimekirja viimati loodud kasutajakontodest.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -18,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Peamine
     position: 0
     display_options:
       access:
@@ -39,13 +39,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Rakenda
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
       pager:
         type: some
         options:
@@ -163,7 +163,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: created
-      title: 'Who''s new'
+      title: 'Uued kasutajad'
       header: {  }
       footer: {  }
       empty: {  }
@@ -180,12 +180,12 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Who''s new'
+    display_title: 'Uued kasutajad'
     position: 1
     display_options:
-      display_description: 'A list of new users'
-      block_description: 'Who''s new'
-      block_category: User
+      display_description: 'Uute kasutajate nimekiri'
+      block_description: 'Uued kasutajad'
+      block_category: Kasutaja
       display_extenders: {  }
     cache_metadata:
       contexts:

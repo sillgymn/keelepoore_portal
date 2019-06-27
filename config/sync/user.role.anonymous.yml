@@ -1,11 +1,11 @@
 uuid: 1313bc61-69da-4d36-b930-fcae6b793f4c
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Anonymous user'
+label: 'Anonüümne kasutaja'
 weight: 0
 is_admin: false
 permissions:

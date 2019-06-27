@@ -1,5 +1,5 @@
 uuid: 9fc25fac-ee3d-45d4-835d-730e266eabbb
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Status messages'
+  label: Olekuteated
   provider: system
   label_display: '0'
 visibility: {  }

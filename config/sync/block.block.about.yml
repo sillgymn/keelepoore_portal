@@ -17,9 +17,9 @@ provider: null
 plugin: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
 settings:
   id: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
-  label: About
+  label: Miest
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full

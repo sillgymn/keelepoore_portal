@@ -1,11 +1,11 @@
 uuid: 946e1b7b-449c-445e-8903-7bd090c6df64
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: zW8dEKuN_hbYbIx-q05dK7KEUuXcAjFV4-9MKe9EOiw
 id: default
-label: Default
+label: Vaikimisi
 options:
   animation: fade
   animationSpeed: 600

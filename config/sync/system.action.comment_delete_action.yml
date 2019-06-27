@@ -1,5 +1,5 @@
 uuid: cbb02de7-c8fb-4463-81fa-a2ae76e756ad
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: VetuwpecspsjqMCd8e7wKyr2l-AZEh1UNYWNtNywHXM
 id: comment_delete_action
-label: 'Delete comment'
+label: 'Kustuta kommentaar'
 type: comment
 plugin: 'entity:delete_action:comment'
 configuration: {  }

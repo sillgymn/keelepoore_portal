@@ -1,5 +1,5 @@
 uuid: 3318bc55-d2b8-49e1-a3b9-f18022849aeb
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
 id: taxonomy_term.full
-label: 'Taxonomy term page'
+label: 'Taksonoomia termini lehekülg'
 targetEntityType: taxonomy_term
 cache: true

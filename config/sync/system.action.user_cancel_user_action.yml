@@ -1,5 +1,5 @@
 uuid: 8351472d-fb95-41c1-88cb-3c14c28e3a7b
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
 id: user_cancel_user_action
-label: 'Cancel the selected user account(s)'
+label: 'Tühista valitud kasutaja(te) konto(d)'
 type: user
 plugin: user_cancel_user_action
 configuration: {  }

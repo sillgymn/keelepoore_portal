@@ -1,5 +1,5 @@
 uuid: 2f6d06bf-f0c8-4e88-b1c3-2cb9ca5a7901
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: Body
+label: Sisu
 description: ''
 required: false
 translatable: true

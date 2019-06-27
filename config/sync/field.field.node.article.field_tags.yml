@@ -1,5 +1,5 @@
 uuid: 5e4837d2-8451-4325-bf42-ac262bfe16ad
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -12,8 +12,8 @@ id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Tags
-description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
+label: Sildid
+description: 'Sisesta komadega eraldatud nimekiri. Näiteks: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
 translatable: true
 default_value: {  }

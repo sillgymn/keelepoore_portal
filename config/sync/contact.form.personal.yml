@@ -1,13 +1,13 @@
 uuid: 70ae2efa-48b4-4e3b-990a-c18db6c9d105
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
 id: personal
-label: 'Personal contact form'
+label: 'Isiklik kontaktivorm'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message: 'Sinu teade on saadetud.'
 redirect: ''

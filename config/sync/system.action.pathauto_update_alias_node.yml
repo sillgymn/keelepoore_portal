@@ -1,5 +1,5 @@
 uuid: 75ff488a-db68-4f31-a770-0caab1dd7541
-langcode: en
+langcode: et
 status: true
 dependencies:
   enforced:
@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
 id: pathauto_update_alias_node
-label: 'Update URL alias'
+label: 'Uuenda URLi alias'
 type: node
 plugin: pathauto_update_alias
 configuration: {  }

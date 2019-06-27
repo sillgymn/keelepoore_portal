@@ -1,5 +1,5 @@
 uuid: 39e53f8e-d638-45cc-a2b5-74ca46288c9e
-langcode: en
+langcode: et
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: 4tedlMuvQjDOdvHdw86_e-2Rt78aR7TGFMfOK8Ejppg
 id: block_content.full
-label: Full
+label: Täielik
 targetEntityType: block_content
 cache: true

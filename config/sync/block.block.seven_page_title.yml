@@ -1,5 +1,5 @@
 uuid: afad9b06-b0ef-4d5a-9803-1fd9066847f7
-langcode: en
+langcode: et
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Lehe pealkiri'
   provider: core
   label_display: '0'
 visibility: {  }

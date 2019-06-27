@@ -1,5 +1,5 @@
 uuid: 5a92f832-1d7a-42b2-974a-feed9529f3b2
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Search
+  label: Otsing
   provider: search
   label_display: visible
 visibility: {  }

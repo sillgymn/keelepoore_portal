@@ -1,5 +1,5 @@
 uuid: 6e3db655-9a95-4d6a-ac5b-94f27f203f94
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: Image
+label: Pilt
 description: ''
 required: false
 translatable: true

@@ -8,3 +8,4 @@ toolbar_items:
   - devel.run_cron
 _core:
   default_config_hash: IQjf_ytthngZTAk_MU8-74VecArWD3G5g0oEH6PM6GA
+langcode: et

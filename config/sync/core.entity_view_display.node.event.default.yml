@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.event.field_event_contact_email
-    - field.field.node.event.field_event_dates
     - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_documents
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_evnet_dates
     - field.field.node.event.field_image
     - node.type.event
   module:
-    - datetime
+    - datetime_range
+    - file
     - image
     - layout_builder
     - panelizer
@@ -35,21 +38,38 @@ content:
     third_party_settings: {  }
     type: basic_string
     region: content
-  field_event_dates:
-    weight: 3
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
   field_event_description:
     weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_event_documents:
+    weight: 7
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_event_location:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_evnet_dates:
+    weight: 6
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: short
+      separator: '-'
+    third_party_settings: {  }
+    type: daterange_default
     region: content
   field_image:
     weight: 2

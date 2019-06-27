@@ -1,5 +1,5 @@
 uuid: d4dd4355-4f37-42e6-898b-ece29a559707
-langcode: en
+langcode: et
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
 id: comment.full
-label: 'Full comment'
+label: Kommentaar
 targetEntityType: comment
 cache: true

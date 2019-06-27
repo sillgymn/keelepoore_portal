@@ -1,5 +1,5 @@
 uuid: c16199a1-f603-4fab-a0e0-12742f167af0
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: Põhinavigatsioon
   provider: system
   label_display: '0'
   level: 1

@@ -1,5 +1,5 @@
 uuid: 40cd9c61-3f84-47ec-9260-b949403eb032
-langcode: en
+langcode: et
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Tabs
+  label: Sakid
   provider: core
   label_display: '0'
   primary: true

@@ -1,5 +1,5 @@
 uuid: d86802b4-98a7-4938-89f4-2885d6505cb2
-langcode: en
+langcode: et
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Secondary tabs'
+  label: Alamsakid
   provider: core
   label_display: '0'
   primary: false

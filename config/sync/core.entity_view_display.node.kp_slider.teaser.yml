@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.kp_slider.field_mt_slideshow_image
     - node.type.kp_slider
   module:
     - user
@@ -18,4 +19,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_mt_slideshow_image: true
   langcode: true

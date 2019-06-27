@@ -1,5 +1,5 @@
 uuid: b4643b26-643d-45dd-b021-f43631b8e5a0
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Help
+  label: Abi
   provider: help
   label_display: '0'
 visibility: {  }

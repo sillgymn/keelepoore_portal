@@ -1,5 +1,5 @@
 uuid: 0e023ef7-fcc0-438f-8732-3e9b9891eccb
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Powered by Drupal'
+  label: 'Süsteemimootor Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

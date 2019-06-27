@@ -4,13 +4,16 @@ status: true
 dependencies:
   config:
     - field.field.node.event.field_event_contact_email
-    - field.field.node.event.field_event_dates
     - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_documents
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_evnet_dates
     - field.field.node.event.field_image
     - image.style.thumbnail
     - node.type.event
   module:
-    - datetime
+    - datetime_range
+    - file
     - image
     - path
     - text
@@ -33,12 +36,6 @@ content:
     third_party_settings: {  }
     type: email_default
     region: content
-  field_event_dates:
-    weight: 123
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
   field_event_description:
     weight: 121
     settings:
@@ -47,6 +44,27 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea_with_summary
+    region: content
+  field_event_documents:
+    weight: 127
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_event_location:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_evnet_dates:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
     region: content
   field_image:
     weight: 122

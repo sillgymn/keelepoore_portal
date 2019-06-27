@@ -1,5 +1,5 @@
 uuid: 576f995b-2608-418e-b054-5824a23bbd87
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -13,12 +13,12 @@ _core:
 id: keelepoore_portal_theme_footer
 theme: keelepoore_portal_theme
 region: footer
-weight: -13
+weight: -8
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: 'Jaluse menüü'
   provider: system
   label_display: '0'
   level: 1

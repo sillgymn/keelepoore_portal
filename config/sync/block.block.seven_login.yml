@@ -1,5 +1,5 @@
 uuid: ccea630a-3678-4c98-8c39-053b834ab3ef
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: user_login_block
 settings:
   id: user_login_block
-  label: 'User login'
+  label: Sisenemine
   provider: user
   label_display: visible
 visibility: {  }
