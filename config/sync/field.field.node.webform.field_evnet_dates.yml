@@ -1,0 +1,21 @@
+uuid: 4faf73dd-6d9c-42f7-a21c-147670626d4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_evnet_dates
+    - node.type.webform
+  module:
+    - datetime_range
+id: node.webform.field_evnet_dates
+field_name: field_evnet_dates
+entity_type: node
+bundle: webform
+label: Aeg
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

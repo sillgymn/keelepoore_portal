@@ -1,0 +1,27 @@
+uuid: 2bb6f952-fd65-4cc7-8ff4-8062d112b951
+langcode: et
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: 2cTALgy7ymh2qbjc0gZRCMRSrVwAsX30136f-PsPZQQ
+id: keelepoore_portal_theme_breadcrumbs
+theme: keelepoore_portal_theme
+region: system_messages
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

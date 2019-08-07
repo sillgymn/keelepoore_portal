@@ -1,0 +1,11 @@
+uuid: 31d08a24-88d9-4bfa-ab2e-e403e925bcbd
+langcode: et
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
+id: en
+label: 'Inglise keel'
+direction: ltr
+weight: 0
+locked: false

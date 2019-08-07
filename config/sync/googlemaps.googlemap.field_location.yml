@@ -1,0 +1,10 @@
+langcode: en
+_core:
+  default_config_hash: cHWtNBbybJciZxxoXI48G0m33-Ul65eIctjLJrevFKU
+name: field_location
+label: 'Field Location'
+key: ''
+libraries:
+  places: places
+  geometry: geometry
+callback: ''

@@ -1,0 +1,62 @@
+uuid: 569c85bf-510f-4477-a229-973f55516a82
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.kp_news
+    - views.view.kp_news
+  module:
+    - panels
+    - search
+    - views
+id: kp_news-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    dd61bae0-fd2c-4553-a261-4e1bca663b06:
+      id: search_form_block
+      label: 'Search form'
+      provider: search
+      label_display: '0'
+      region: sidebar
+      weight: 0
+      uuid: dd61bae0-fd2c-4553-a261-4e1bca663b06
+      context_mapping: {  }
+    69beea8a-d592-41db-a1cf-2ea1091ac5c7:
+      id: 'views_block:kp_news-news_page'
+      label: Uudised
+      provider: views
+      label_display: '0'
+      views_label: Uudised
+      items_per_page: none
+      region: main
+      weight: 0
+      uuid: 69beea8a-d592-41db-a1cf-2ea1091ac5c7
+      context_mapping: {  }
+    9c6af317-6a93-48f7-90ab-0a61359ba8fa:
+      id: 'views_block:kp_news-block_1'
+      label: 'Uudiste arhiv'
+      provider: views
+      label_display: visible
+      views_label: 'Uudiste arhiv'
+      items_per_page: none
+      region: sidebar
+      weight: 0
+      uuid: 9c6af317-6a93-48f7-90ab-0a61359ba8fa
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 4256863b-9186-4933-8b94-002eb68dd74d
+  label: null
+  weight: 0
+  layout: keelepoore_portal_theme_two_column
+  layout_settings: {  }
+  page_title: Uudised
+  storage_type: page_manager
+  storage_id: kp_news-panels_variant-0
+  builder: standard
+page: kp_news
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

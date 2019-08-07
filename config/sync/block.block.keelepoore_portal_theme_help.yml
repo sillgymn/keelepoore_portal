@@ -1,0 +1,22 @@
+uuid: 9894b53f-b842-438b-a9a2-7e802be39d5f
+langcode: et
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: tsR5SWzqk8TKBxQEcW4nd1w6tak4QkP-sQCR17jWvyY
+id: keelepoore_portal_theme_help
+theme: keelepoore_portal_theme
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Abi
+  provider: help
+  label_display: '0'
+visibility: {  }

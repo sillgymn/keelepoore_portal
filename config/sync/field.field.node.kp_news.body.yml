@@ -1,0 +1,22 @@
+uuid: 1cd31abc-1589-4b1c-969e-f2db1314290f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kp_news
+  module:
+    - text
+id: node.kp_news.body
+field_name: body
+entity_type: node
+bundle: kp_news
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

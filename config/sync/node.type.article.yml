@@ -1,0 +1,13 @@
+uuid: 9c710b22-26f0-4625-843e-2b56e05a3e8f
+langcode: et
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Artikkel
+type: article
+description: '<em>Artikleid</em> kasutatakse aeguva sisu jaoks nagu uudised, pressiteated või blogi sissekanded.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

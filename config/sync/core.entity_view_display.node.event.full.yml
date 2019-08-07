@@ -1,0 +1,39 @@
+uuid: dfd7a395-49f3-412c-89a0-7f9a1b59260e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.event.field_event_contact_email
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_documents
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_evnet_dates
+    - field.field.node.event.field_image
+    - node.type.event
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+    allow_custom: false
+    enabled: false
+id: node.event.full
+targetEntityType: node
+bundle: event
+mode: full
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_event_contact_email: true
+  field_event_description: true
+  field_event_documents: true
+  field_event_location: true
+  field_evnet_dates: true
+  field_image: true
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: 49a6e846-4977-4b7f-a2df-bd02e5dd6c67
+langcode: et
+status: true
+dependencies: {  }
+id: et
+label: Estonian
+direction: ltr
+weight: 1
+locked: false

@@ -1,0 +1,8 @@
+uuid: 6eb96042-44de-4bd7-8c6b-9024d12c1d3a
+langcode: und
+status: true
+dependencies: {  }
+id: custom_short_format_month_year_
+label: 'custom short format (month year)'
+locked: false
+pattern: 'F Y'

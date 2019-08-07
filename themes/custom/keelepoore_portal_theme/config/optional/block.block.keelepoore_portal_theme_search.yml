@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - keelepoore_portal_theme
+id: keelepoore_portal_theme_search
+theme: keelepoore_portal_theme
+region: sidebar_second
+weight: -10
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: cb5458fb-a123-46fb-b463-4af3435c5485
+langcode: et
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: I4jY1TnjKEP4bldMc6mVANhx5f3nvvJQa2YfUiS14wQ
+id: keelepoore_portal_theme_messages
+theme: keelepoore_portal_theme
+region: system_messages
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Olekuteated
+  provider: system
+  label_display: '0'
+visibility: {  }

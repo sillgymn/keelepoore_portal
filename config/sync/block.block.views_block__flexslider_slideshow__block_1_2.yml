@@ -1,0 +1,24 @@
+uuid: 9cf9e3c7-931c-469e-b126-9f939590e1e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.flexslider_slideshow_
+  module:
+    - views
+  theme:
+    - keelepoore_portal_theme
+id: views_block__flexslider_slideshow__block_1_2
+theme: keelepoore_portal_theme
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:flexslider_slideshow_-block_1'
+settings:
+  id: 'views_block:flexslider_slideshow_-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

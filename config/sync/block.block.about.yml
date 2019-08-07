@@ -1,0 +1,38 @@
+uuid: ce024f5d-cc0a-4dd9-af1c-3c052bc75308
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3416b442-4529-4214-b820-a22ec45687bc'
+  module:
+    - block_content
+    - rng
+  theme:
+    - keelepoore_portal_theme
+id: about
+theme: keelepoore_portal_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
+settings:
+  id: 'block_content:3416b442-4529-4214-b820-a22ec45687bc'
+  label: Miest
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  rng_current_time:
+    id: rng_current_time
+    date: '1558598125'
+    negate: false
+    context_mapping: {  }
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1558598125'
+    negate: false
+    context_mapping: {  }

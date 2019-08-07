@@ -1,0 +1,43 @@
+uuid: 33894989-6650-4ada-bc89-7a070e73ca47
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.kp_news
+  module:
+    - rng
+    - system
+    - views
+  theme:
+    - keelepoore_portal_theme
+id: views_block__kp_news_frontpage_news
+theme: keelepoore_portal_theme
+region: highlighted_top
+weight: 0
+provider: null
+plugin: 'views_block:kp_news-frontpage_news'
+settings:
+  id: 'views_block:kp_news-frontpage_news'
+  label: 'Viimased uudised'
+  provider: views
+  label_display: visible
+  views_label: 'Viimased uudised'
+  items_per_page: none
+visibility:
+  rng_current_time:
+    id: rng_current_time
+    date: '1558595708'
+    negate: false
+    context_mapping: {  }
+  rng_rule_scheduler:
+    id: rng_rule_scheduler
+    rng_rule_component: null
+    rng_rule_scheduler: null
+    date: '1558595708'
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

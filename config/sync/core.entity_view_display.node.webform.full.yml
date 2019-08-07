@@ -1,0 +1,89 @@
+uuid: 48f0c42e-c166-41bd-bf59-df3250ecf148
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.webform.field_event_contact_email
+    - field.field.node.webform.field_event_description
+    - field.field.node.webform.field_event_documents
+    - field.field.node.webform.field_event_location
+    - field.field.node.webform.field_evnet_dates
+    - field.field.node.webform.webform
+    - node.type.webform
+  module:
+    - datetime_range
+    - file
+    - layout_builder
+    - panelizer
+    - text
+    - user
+    - webform
+third_party_settings:
+  layout_builder:
+    sections: {  }
+    allow_custom: false
+    enabled: false
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
+id: node.webform.full
+targetEntityType: node
+bundle: webform
+mode: full
+content:
+  field_event_contact_email:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+  field_event_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_event_documents:
+    weight: 4
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  field_event_location:
+    type: string
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_evnet_dates:
+    weight: 0
+    label: inline
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  webform:
+    weight: 5
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

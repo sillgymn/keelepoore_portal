@@ -1,0 +1,20 @@
+uuid: 808d06a3-3db8-40f1-8668-27362c77fe82
+langcode: et
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Autenditud kasutaja'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'rng register role authenticated'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

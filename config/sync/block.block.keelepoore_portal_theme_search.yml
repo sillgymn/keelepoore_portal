@@ -1,0 +1,22 @@
+uuid: b6113fc7-5979-43bf-bffc-9eba31d4c9e3
+langcode: et
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - keelepoore_portal_theme
+_core:
+  default_config_hash: Zj81NctfVdM0Hqx0Iavd5pzDEb7nxfXdU0KVvuUmNjU
+id: keelepoore_portal_theme_search
+theme: keelepoore_portal_theme
+region: header_top_first
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Otsing
+  provider: search
+  label_display: '0'
+visibility: {  }

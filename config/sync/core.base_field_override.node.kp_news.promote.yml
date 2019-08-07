@@ -1,0 +1,22 @@
+uuid: 29cfd780-0099-47d6-a694-402e4764371c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.kp_news
+id: node.kp_news.promote
+field_name: promote
+entity_type: node
+bundle: kp_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

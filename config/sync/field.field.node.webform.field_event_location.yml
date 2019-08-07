@@ -1,0 +1,19 @@
+uuid: 681e2359-a324-451d-895d-7e566d47c9fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_location
+    - node.type.webform
+id: node.webform.field_event_location
+field_name: field_event_location
+entity_type: node
+bundle: webform
+label: Asukoht
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

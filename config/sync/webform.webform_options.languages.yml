@@ -1,0 +1,14 @@
+uuid: 3e9773c4-0d20-4374-847e-9c8fde91b168
+langcode: et
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: mYH14Vi65Ixj10c_GFa7CipxU3D0Bt9wgo8zE8zjOfE
+id: languages
+label: Keeled
+category: Keel
+likert: false
+options: ''

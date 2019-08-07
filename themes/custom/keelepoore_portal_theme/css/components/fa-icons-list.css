@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's fa icons list.
+ */
+.list--fa-star,
+.list--fa-caret-right,
+.list--fa-plus,
+.list--fa-square,
+.list--fa-check,
+.list--fa-check-circle,
+.list--fa-custom {
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style: none;
+}
+.list--fa-star li,
+.list--fa-plus li,
+.list--fa-square li,
+.list--fa-caret-right li,
+.list--fa-check li,
+.list--fa-check-circle li {
+  padding: 0 0 5px 20px;
+  position: relative;
+}
+.list--fa-star li:before,
+.list--fa-caret-right li:before,
+.list--fa-plus li:before,
+.list--fa-square li:before,
+.list--fa-check li:before,
+.list--fa-check-circle li:before {
+  font-family: "fontello";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 13px;
+}
+.list--fa-star li:before {
+  content: "\e803";
+}
+.list--fa-caret-right li:before {
+  content: "\e804";
+  font-size: 12px;
+}
+.list--fa-plus li:before {
+  content: "\e805";
+}
+.list--fa-square li:before {
+  content: "\f0c8";
+  font-size: 8px;
+  top: 8px;
+}
+.list--fa-check li:before {
+  content: "\e806";
+}
+.list--fa-check-circle li:before {
+  content: "\e807";
+}
+.list--fa-custom li {
+  padding: 0 0 5px 0;
+}
+.list--fa-custom li .svg-inline--fa {
+  margin-right: 5px;
+  width: 20px;
+  font-size: 14px;
+}

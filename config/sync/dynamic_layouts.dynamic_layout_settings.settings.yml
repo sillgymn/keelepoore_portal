@@ -1,0 +1,9 @@
+uuid: a2b2a1e0-3966-4e62-b998-0b22bc500e59
+langcode: et
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2at32KiJ2g0-DDGt07BnywB2CdAVdUwreRpYCoiSy2Q
+id: settings
+label: Seaded
+settings: 'a:3:{s:13:"column_prefix";s:3:"col";s:16:"frontend_library";s:9:"bootstrap";s:17:"grid_column_count";s:2:"12";}'

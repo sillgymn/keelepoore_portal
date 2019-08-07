@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's icon features.
+ */
+.feature {
+  text-align: center;
+  margin: 25px 0;
+}
+.feature__icon {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  margin: 0 auto 40px;
+  border-color: transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.region--light-typography .feature__icon {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+}
+.feature__icon .field--name-field-mt-if-fa-icon,
+.feature__icon .fontawesome-icons,
+.feature__icon .fontawesome-icon,
+.feature__icon .svg-inline--fa {
+  height: 100%;
+}
+.feature__title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.feature__image {
+  margin-bottom: 30px;
+}

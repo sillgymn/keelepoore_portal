@@ -1,0 +1,160 @@
+/**
+ * @file
+ * Visual styles for Conference Lite's article content type.
+ */
+.node--type-article .node__meta {
+  margin-bottom: 0;
+}
+.node--type-article .node__meta-item {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.node--type-article .node__meta-item .svg-inline--fa {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.node--type-article .node__meta-date-item {
+  display: inline-block;
+}
+.node--type-article .image-wrapper {
+  position: relative;
+}
+.node--type-article .image-wrapper .node__meta-date {
+  position: absolute;
+  background-color: #ffffff;
+  left: 15px;
+  bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #575757;
+  text-align: center;
+  border-width: 0px;
+  border-style: solid;
+  border-color: transparent;
+}
+.node--type-article .image-wrapper .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--type-article .image-wrapper .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}
+.node--type-article .node__header {
+  margin-bottom: 1em;
+}
+.node--type-article .node__meta .inline-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page-node-type-article .page-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/* article layout */
+.node--type-article .node__side {
+  float: left;
+  width: 75px;
+  padding-right: 20px;
+  min-height: 1px;
+}
+.node--type-article .node__side + .node__main-content {
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .node--type-article .node__side {
+    margin-top: 10px;
+  }
+}
+
+/*article header*/
+.node--type-article .node__submitted-info {
+  font-size: 11px;
+}
+
+/*user info*/
+.node__user-info {
+  background-color: #f6f6f6;
+  padding: 35px;
+  margin-top: 45px;
+  margin-bottom: 55px;
+}
+.node__user-info .user-picture {
+  margin-bottom: 10px;
+}
+.node__user-info .user-full-name {
+  font-size: 24px;
+  color: #575757;
+  font-weight: 600;
+}
+.node__user-info .user-signature {
+  color: #656565;
+}
+@media (min-width: 575px) {
+  .node__user-info .user-picture {
+    margin-right: 30px;
+    float: left;
+    max-width: 115px;
+    max-height: 115px;
+  }
+  .node__user-info .user-picture ~ .user-full-name,
+  .node__user-info .user-picture ~ .user-signature {
+    margin-left: 115px;
+  }
+}
+
+/*article teaser*/
+.view-content .node--view-mode-teaser.node--type-article {
+  padding-bottom: 20px;
+}
+.node--view-mode-teaser.node--type-article .images-container {
+  margin-bottom: 20px;
+}
+.node--view-mode-teaser.node--type-article .node__header h2 {
+  margin-bottom: 5px;
+}
+.node--view-mode-teaser.node--type-article .node__header h2 a {
+  color: #575757;
+}
+.node--view-mode-teaser.node--type-article .node__header h2 a:hover {
+  text-decoration: none;
+}
+.node--view-mode-teaser.node--type-article .field--entity-reference-target-type-taxonomy-term,
+.node--view-mode-teaser.node--type-article .field--entity-reference-target-type-taxonomy-term.field__item {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.node--view-mode-teaser.node--type-article .node__links {
+  margin-top: 20px;
+}
+.node--view-mode-teaser.node--type-article .node__meta-date {
+  background-color: #ffffff;
+  left: 15px;
+  bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #575757;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.node--view-mode-teaser.node--type-article .image-wrapper .node__meta-date {
+  margin-bottom: 0;
+}
+.node--view-mode-teaser.node--type-article .day {
+  font-size: 35px;
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+}
+.node--view-mode-teaser.node--type-article .month-year {
+  font-size: 14px;
+  font-weight: 500;
+}
