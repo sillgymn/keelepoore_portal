@@ -34,17 +34,6 @@ variant_settings:
       weight: 0
       uuid: 69beea8a-d592-41db-a1cf-2ea1091ac5c7
       context_mapping: {  }
-    9c6af317-6a93-48f7-90ab-0a61359ba8fa:
-      id: 'views_block:kp_news-block_1'
-      label: 'Uudiste arhiv'
-      provider: views
-      label_display: visible
-      views_label: 'Uudiste arhiv'
-      items_per_page: none
-      region: sidebar
-      weight: 0
-      uuid: 9c6af317-6a93-48f7-90ab-0a61359ba8fa
-      context_mapping: {  }
   id: panels_variant
   uuid: 4256863b-9186-4933-8b94-002eb68dd74d
   label: null

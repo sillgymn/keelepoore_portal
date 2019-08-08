@@ -1,0 +1,7 @@
+uuid: 785e0909-8585-4108-9f32-2ff365e33b22
+langcode: et
+status: false
+dependencies: {  }
+formId: node_kp_slider_form
+captchaType: default
+label: null

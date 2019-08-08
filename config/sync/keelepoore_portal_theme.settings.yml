@@ -206,3 +206,13 @@ google_maps_key: AIzaSyDyL-4KyWw_3hp-0jmZLGcJ3zMWkkJ44VI
 _core:
   default_config_hash: cFMPhNyFMCFjGTo1NqT0-LCOml1L6vKxZQYkzelevWs
 langcode: et
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+premium_description: ''

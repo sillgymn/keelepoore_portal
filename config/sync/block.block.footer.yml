@@ -22,6 +22,7 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility:
   rng_current_time:
     id: rng_current_time
